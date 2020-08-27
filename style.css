@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+        width: 1100px;
+    margin: auto;
+   background-color: black;
+
+
+}
+.container-header{
+    display: flex;
+    justify-content: flex-start;
+     background-color: black;
+    align-items: center;
+    position: relative;
+    border-bottom: 2px solid yellow;
+}
+
+.logo img{
+    width: 300px;
+}
+.input{
+    margin-left: 100px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(70, 69, 69);
+    border: none;
+    border-radius: 10px;
+}
+button{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: blue ;
+    border:none;
+    border-radius: 50%;
+    position: absolute;
+    top:30%;
+    right: 36.3%;
+}
+.fa{   
+    color: white;
+    font-weight: 800;
+}
+.menu {
+    width: 1100px;
+    margin:auto;
+   
+}
+.menu ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(56, 55, 56);
+}
+.menu ul li {
+    position: relative;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 35px;
+    font-weight: 600;
+   font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+.menu ul li .sub-menu{
+        display: none;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.sub-menu li {
+    width: 200px;
+}
+.menu ul li:hover .sub-menu{
+    display: flex;
+    width: 600px;
+     justify-content: space-around;
+     flex-wrap: wrap;   
+     opacity: 0.9;
+
+}
+main{
+    background-color: rgb(34, 33, 33);
+}
+.container{ width: 100%;
+     height: 380px;
+    display: flex;
+        align-items: center;
+        border: 2px solid rgb(89, 94, 89);
+      position: relative;
+        overflow: auto;
+        margin: auto;
+}
+.container img{
+    width: 225px;
+    height: 300px;
+  padding: 0 10px;
+
+}
+.overlay{
+    width: 225px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    top:300px;
+    opacity: 0.7;
+    z-index: 1;
+      padding: 0 10px;
+
+}
+.content{
+    color: white;
+   position: absolute;
+    top: 300px;
+     z-index: 10;
+       padding: 0 10px;
+
+}
+.content ul {
+    list-style: none;
+    padding: 0%;
+}
+.mota2{
+    width: 120px;
+    height: 20px;
+    color: white;
+    position: absolute;
+    background-color: red !important;
+    margin-top:5px;
+    z-index: 10;
+        border: none !important;
+        text-transform:capitalize  ;
+}
+.mota2::after{
+    content: "";
+    width: 14px;
+    height: 14px;
+    background-color: rgb(255, 55, 5);
+    position: absolute;
+    transform: rotate(45deg);
+    z-index: 1;
+    top:3px;
+    right: -7px;
+}
+
+
+.all{
+display: flex;
+justify-content: space-between;
+align-items: flex-start;}
+.phim{  max-width: 70%;
+    height: 660px;
+    margin-top:20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+        border: 1px solid rgb(104, 104, 103);
+
+}
+.phim div{
+ border: 1px solid rgb(104, 104, 103);
+ background-color: rgb(20, 20, 20);
+}
+.phim img{
+    width: 180px;
+    vertical-align: middle;
+}
+.phim ul{
+    list-style: none;
+    padding:0;
+}
+.phim ul li{
+    color: white;
+    text-align: center;
+}
+.goiy{
+    margin-top: 19px;
+    max-width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 660px;
+    overflow: auto;
+    border: 1px solid rgb(104, 104, 103);
+}
+
+.goiy img{
+    width: 130px;
+    height: 150px;
+}
+.container-goiy{
+        padding:5px 0px;
+
+}
+.container-goiy ul{
+    float: right;
+    list-style: none;
+    padding: 0 10px;
+    max-width: 120px;
+}
+.container-goiy ul li{
+    color: rgb(247, 247, 247);
+}
+.tieude{
+    color: yellow;
+    font-size: 20px;
+    font-weight: 600;
+}
+.tieude ul {
+    list-style: none;
+}
+.tieude ul li {
+    display: inline-block;
+}
+.tieude ul li:nth-child(1)
+{
+    padding: 10px 700px 0 30px ;
+}
+footer{
+    background-color: black;
+}
+.container-footer{
+    padding-top:30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-footer img{
+    width: 250px;
+}
+.container-footer ul {
+    list-style: none;
+}
+.container-footer ul li {
+    color: rgb(252, 252, 252);
+}
